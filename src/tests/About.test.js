@@ -1,6 +1,6 @@
 import React from 'react';
 import { screen } from '@testing-library/react';
-import renderWithRouter from '../services/renderWithRouter';
+import renderWithRouter from '../services/renderWithRouter.js';
 import App from '../App';
 
 test('testa o component about', () => {
