@@ -1,7 +1,7 @@
 import { screen } from '@testing-library/react';
 import React from 'react';
 import userEvent from '@testing-library/user-event';
-import renderWithRouter from '../services/renderWithRouter';
+import renderWithRouter from '../renderWithRouter';
 import App from '../App';
 
 test('testa se os pokemons favoritos estão aparecendo corretamente', () => {
